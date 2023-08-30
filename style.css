@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: #f9f8f8;
+}
+
+/*INICIO CABEÇALHO*/
+header{
+    padding: 20px 45px;
+    background: #ffffff;
+    box-shadow: 0 0.2rem 0.4rem rgb(121, 117, 117);
+}
+nav{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    
+}
+
+nav h1{
+    font-size: 2.5rem;
+    color: black;
+}
+span{
+    color: blueviolet;
+    font-size: 2.8rem;
+}
+/*FINAL CABEÇALHO*/
+
+/*INICIO TABELAS*/
+.tabelas{
+    display: flex;
+    gap: 2rem;
+}
+.table-oleo, .table-pneu, .table-lanterna{
+    width: 400px;
+    background: blueviolet;
+    margin-top: 90px;
+    margin-left: 40px;
+    border-collapse: collapse;
+}
+th{
+    text-transform: uppercase;
+    color: white;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+th, td{
+    padding: 7px;
+}
+.linha{
+    background: #fff;
+    transition: all 0.5s;
+}
+.linha:hover{
+    background: rgb(172, 101, 238);
+    color: #fff;
+}
+.numero{
+    text-align: right;
+}
+/*FINAL TABELA*/
+
+
+/*INICIO NOTICIAS*/
+.noticia{
+    display: flex;
+    gap: 2rem;
+    margin-top: 80px;
+    margin-left: 20%;
+    width: 60%;
+}
+.about-img img{
+    border-radius: 20px;
+    height: 400px; 
+}
+.about-text{
+    width: 500px;
+}
+.about-text h2{
+    color: blueviolet;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+/*FINAL NOTICIAS*/
+
+/*INICIO NOTICIAS-2*/
+.noticia-2{
+    display: flex;
+    gap: 1rem;
+    margin-top: 90px;
+    margin-left: 20%;
+    width: 60%;
+}
+.about-text-2{
+    width: 600px;
+    padding-left: 10px;
+}
+.about-text-2 h2{
+    color: blueviolet;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.about-img-2 img{
+    border-radius: 20px;
+    height: 400px;
+   
+}
+/*FINAL NOTICIAS-2*/
+
+/*INICIO ROD*/
+footer{
+    background: rgb(150, 67, 227);
+    margin-top: 80px;
+    
+    
+}
+.rod-menu{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.rod-itens a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rod-itens a:hover{
+    color: rgb(195, 194, 193);
+}
+/*FINAL ROD*/
